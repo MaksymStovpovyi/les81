@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <section class="about">
+<!--     <section class="about">
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
@@ -185,9 +185,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="resume">
+<!--     <section class="resume">
         <div class="container">
 
             <h2 class="title title_fz16 title__section-title">Опыт</h2>
@@ -520,19 +520,23 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="email">
+                            <input required name="email" id="email" type="email">
                             <label for="email">Ваша почта</label>
                         </div>
                         <div class="contacts__textarea">
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <div>
+                        <div class="contacts__triggers">
                             <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
                         </div>
                     </form>
 
@@ -540,7 +544,7 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
     <script src="js/script.js"></script>
 </body>
